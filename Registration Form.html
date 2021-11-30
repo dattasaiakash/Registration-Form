@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+tr:nth-child(even) {background-color: #f2f2f2}
+th {
+ background-color: #4CAF50;
+ color: white;
+}
+th, td {
+ padding: 15px;
+}
+</style>
+</head>
+<body>
+<br><br>
+<center>
+<form name="frmRegistration" method="post" action="action.php">
+<table border="0" width="800" align="center">
+<tr><th colspan=2>Registration Form</th></tr>
+<tr><td>Username</td>
+<td><input type="text" name="userName"></td>
+</tr>
+<tr><td>USN</td>
+<td><input type="text" name="usn"></td>
+</tr>
+<tr><td>Course</td>
+<td><input type="text" name="course"></td>
+</tr>
+<tr><td>Branch</td>
+<td><input type="text" name="branch"></td>
+</tr>
+<tr><td>First Name</td>
+<td><input type="text" name="firstName"></td>
+</tr>
+<tr><td>Last Name</td>
+<td><input type="text" name="lastName"></td>
+</tr>
+<tr><td>Password</td>
+<td><input type="password" name="password" ></td>
+</tr>
+<tr><td>Confirm Password</td>
+<td><input type="password" id="pwd" name="confirm_password" minlength="8"></td>
+</tr>
+<tr><td>Email</td>
+<td><input type="text" name="userEmail" ></td>
+</tr>
+<tr><td>Gender</td>
+<td><input type="radio" name="gender" value="Male" > Male
+<input type="radio" name="gender" value="Female"> Female
+</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" id="chbox" name="terms"> I accept Terms and
+Conditions</td>
+</tr>
+<tr><th colspan=2>
+<div><input type="submit" value="Register" ></div>
+</th></tr>
+</table>
+</form>
+</body>
+</html>
